@@ -1,10 +1,10 @@
 body {
-  background: #107896;
+  background: #DA621E;
 }
 /* every box is this size */
 
 .skyblue {
-  background: "red";
+  background: "Kelly";
 }
 
 .box{
@@ -20,10 +20,11 @@ body {
 
 /* Giving our navbar some padding and a background color */
 .navbar {
+  color:black;
   margin-right: 0px;
   margin-left: 0px;
   padding: 25px;
-  background: #5D6D7E;
+  background: #2874A6;
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
@@ -51,6 +52,15 @@ p{
   font-size: 25px;
 }
 
+.home {
+  color: white;
+  font-family: verdana;
+  font-size: 40px;
+  background-color: #2874A6;
+  border: 1px solid #2874A6;
+    padding: 15px;
+}
+
 .latitude {
   color: white;
   font-family: verdana;
@@ -63,6 +73,7 @@ p{
 @media (max-width: 480px) {
   .navbar li {
     padding: 10px;
+	color: "red"
   }
   .box {
     margin-right: 20px;
